@@ -86,7 +86,7 @@ def main():
 
     for x, stream in enumerate(streams):
         delete_stream(client, stream)
-        create_stream(client, stream, 1)
+        create_stream(client, stream, 2)
 
     orderid = 0
     while True:
